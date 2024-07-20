@@ -1,0 +1,37 @@
+body {
+    background: azure;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+    color: grey;
+}
+
+.button {
+    color: grey;
+    background: lavenderblush;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+}
+
+.button:hover {
+    background: lavender;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+}
